@@ -1,0 +1,27 @@
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: rgb(20, 152, 247);
+    box-shadow: 0 0 10px rgba(221, 12, 12, 0.1);
+}
+
+.Links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+
+}
+
+.Links a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav a.active{
+    color: white;
+}
